@@ -2,7 +2,7 @@
 #Autor: Luis Serrano
 #Fecha: 03/12/2018
 #Contacto: serranol82@gmail.com
-#Descripción:
+#Descripción:Sistema para retirar de un documento todos los errores con texto 550
 #Inicio del sistema
 use strict;
 use warnings;
