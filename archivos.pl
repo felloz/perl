@@ -3,10 +3,10 @@
 #Fecha: 03/12/2018
 #Contacto: serranol82@gmail.com
 #Descripción:
-
+#Inicio del sistema
 use strict;
 use warnings;
-
+#Declaracion de Variables
 my $resultado;
 my $smtpDiagnosticCode;
 my $smtpDiagnosticCode1;
@@ -25,7 +25,7 @@ my $row;
 #    chomp $row;
 #    print "$row\n";
 #  }
-
+#Abro el archivo y lo guardo en la variable de busqueda BUSCAR
 open (BUSCAR, "<", "/home/lserrano/Documentos/perl/files/devueltos2018ls.txt");
 #print <BUSCAR>;
 while (<BUSCAR>){
